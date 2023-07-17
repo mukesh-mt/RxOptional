@@ -16,7 +16,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/ReactiveX/RxSwift.git", exact: "5.1.0"),
         // Development
-        .package(url: "https://github.com/mukesh-mt/Quick.git", branch: "mindtickle"), // dev
+        .package(url: "https://github.com/mukesh-mt/Quick.git", exact: "6.1.0"), // dev
         .package(url: "https://github.com/Quick/Nimble.git", exact: "9.0.0"), // dev
         .package(url: "https://github.com/shibapm/Rocket", from: "0.4.0") // dev
     ],
